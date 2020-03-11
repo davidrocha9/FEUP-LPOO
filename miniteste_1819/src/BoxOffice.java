@@ -10,7 +10,7 @@ public class BoxOffice {
         for (x = 1; x <= nrs; x++){
             tickets.add(new Ticket(ticketnr + x, concert));
         }
-        ticketnr = x - 1;
+        ticketnr = nrs;
         return tickets;
     }
 }
